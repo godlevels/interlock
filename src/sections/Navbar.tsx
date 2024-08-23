@@ -39,7 +39,7 @@ export const Navbar = () => {
           onClick={toggleMenu}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         >
-          {isMenuOpen ? <FiX width={24} height={24} /> : <FiAlignCenter width={35} height={35} />} 
+          {isMenuOpen ? <FiX width={35} height={35} /> : <FiAlignCenter width={35} height={35} />} 
         </button>
 
         <Link href="/#get-app">
