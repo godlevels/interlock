@@ -9,13 +9,14 @@ export const Hero = () => {
   return (
     <div className="relative flex min-h-[810px] w-full flex-col items-center justify-center overflow-hidden bg-cover px-6 pt-[0px] md:flex-row md:items-start md:px-10 md:pt-[200px] lg:justify-start lg:pt-[200px] xl:px-[159px] 3xl:justify-center ">
       <div className="absolute inset-0 z-0">
-      <Image   
-  src={HeroBackground} 
-  alt="Hero Background" 
-  fill
-  style={{ objectFit: "cover", objectPosition: "center" }}
-  priority
-/>
+        <Image 
+          src={HeroBackground} 
+          alt="Hero Background" 
+          layout="fill" 
+          objectFit="cover" 
+          objectPosition="center"
+          priority
+        />
       </div>
 
       <div className="relative z-10 flex mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-auto">
@@ -35,12 +36,7 @@ export const Hero = () => {
       
             <button className="flex items-center gap-2 sm:gap-3 lg:gap-[10px] text-left text-base sm:text-lg text-[#475467] font-semibold leading-7">
               Learn More
-              <Image 
-                src={btnArrow} 
-                alt="Arrow icon"
-                fill
-                style={{ objectFit: "contain", width: "auto", height: "auto" }}
-              />
+              <Image src={btnArrow} alt="Arrow icon" width={24} height={24} />
             </button>
           </div>
         </div>
