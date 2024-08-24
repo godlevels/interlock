@@ -35,41 +35,40 @@ export const Offer = () => {
             </div>
 
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row px-6 md:px-10 xl:px-20 mx-4 sm:mx-6 md:mx-14 lg:mx-20 xl:mx-auto mt-[-30px]">
-      <div className="flex flex-col items-center gap-x-6 md:flex-row lg:flex-row xl:flex-row w-full">
-        <div className="flex flex-col items-start justify-between w-[650px] h-[600px] gap-6 p-11 border border-gray-200 rounded-[40px] card-one">
-          <div className="flex flex-col items-start gap-4">
-            <Image src={SecurityIcon} alt="Advanced Security Measures" width={64} height={64} />
-            <div>
-              <h4 className="text-2xl text-left text-[#2F2B43] font-semibold leading-8 tracking-[-0.016em]">Advanced Security Measures</h4>
-              <p className="mt-4 mb-6 text-[#2F2B43]/60 text-base font-normal text-left leading-6 tracking-[-0.01em]">
-                Your security is our top priority. With state-of-the-art encryption and security protocols,
-                rest assured that your financial data is safeguarded at all times.
-              </p>
+                <div className="flex flex-col items-center gap-x-6 md:flex-row lg:flex-row xl:flex-row w-full">
+                    <div className="flex flex-col items-start justify-between w-[650px] h-[600px] gap-6 p-11 border border-gray-200 rounded-[40px] card-one">
+                        <div className="flex flex-col items-start gap-4">
+                            <Image src={SecurityIcon} alt="Advanced Security Measures" width={64} height={64} />
+                        <div>
+                        <h4 className="text-2xl text-left text-[#2F2B43] font-semibold leading-8 tracking-[-0.016em]">Advanced Security Measures</h4>
+                        <p className="mt-4 mb-6 text-[#2F2B43]/60 text-base font-normal text-left leading-6 tracking-[-0.01em]">
+                            Your security is our top priority. With state-of-the-art encryption and security protocols,
+                            rest assured that your financial data is safeguarded at all times.
+                        </p>
+                    </div>
+                </div>
+                <Image src={PhoneImage} alt="Phone with security notifications" width={390} height={304} className="mt-5" />
             </div>
-          </div>
-          <Image src={PhoneImage} alt="Phone with security notifications" width={390} height={304} className="mt-5" />
-        </div>
 
-        <div className="flex flex-col gap-6 p-11 border border-gray-200 rounded-[40px] h-[600px] w-[960px] card-two">
-          <div className="flex flex-col items-start gap-4">
-            <Image src={IntegrationsIcon} alt="Streamlined App Integrations" width={64} height={64} />
-            <div>
-              <h4 className="text-2xl text-left text-[#2F2B43] font-semibold leading-8 tracking-[-0.016em]">Streamlined App Integrations</h4>
-              <p className="mt-4 mb-6 text-[#2F2B43]/60 text-base font-normal text-left leading-6 tracking-[-0.01em] w-[414px] h-[72px]">
-                Say goodbye to the complexities of traditional banking. Our intuitive platforms and tools simplify financial processes, making managing your money effortless.
-              </p>
+            <div className="flex flex-col gap-6 p-11 border border-gray-200 rounded-[40px] h-[600px] w-[960px] card-two">
+                <div className="flex flex-col items-start gap-4">
+                    <Image src={IntegrationsIcon} alt="Streamlined App Integrations" width={64} height={64} />
+                    <div>
+                        <h4 className="text-2xl text-left text-[#2F2B43] font-semibold leading-8 tracking-[-0.016em]">Streamlined App Integrations</h4>
+                        <p className="mt-4 mb-6 text-[#2F2B43]/60 text-base font-normal text-left leading-6 tracking-[-0.01em] w-[414px] h-[72px]">
+                            Say goodbye to the complexities of traditional banking. Our intuitive platforms and tools simplify financial processes, making managing your money effortless.
+                        </p>
+                    </div>
+                </div>
+                <Image src={PaymentsImage} alt="App integrations" className="flex justify-center items-center mx-14" />
             </div>
-          </div>
-          <Image src={PaymentsImage} alt="App integrations" className="flex justify-center items-center mx-14" />
-        </div>
-      </div>
     </div>
-    <div className="relative mt-8 flex w-full max-w-[1200px]">
-        <Image src={NotificationOneImage} width={380} height={68} alt="Notification one" className="absolute left-10 bottom-[-150px] md:bottom-[180px]" />
-        <Image src={NotificationTwoImage} width={360} height={112} alt="Notification two" className="absolute left-0 bottom-[30px] md:left-[330px]" />
-      </div>
-        </section>
-
+    </div>
+            <div className="relative mt-8 flex w-full max-w-[1200px]">
+                <Image src={NotificationOneImage} width={380} height={68} alt="Notification one" className="absolute left-10 bottom-[-150px] md:bottom-[180px]" />
+                <Image src={NotificationTwoImage} width={360} height={112} alt="Notification two" className="absolute left-0 bottom-[30px] md:left-[330px]" />
+            </div>
+    </section>
     )
 };
 
