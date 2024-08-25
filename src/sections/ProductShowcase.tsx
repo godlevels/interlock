@@ -9,7 +9,7 @@ import shadow from "../assets/shadow.svg";
 
 export const ProductShowcase = () => {
   return (
-    <section id="resources" className="overflow-y-c lip relative flex h-[750px] w-full items-start justify-center bg-[#131316] px-6 md:h-[900px] md:px-10 lg:h-[592px] lg:items-center xl:px-[159px] mt-10">
+    <section className="overflow-y-c lip relative flex h-[750px] w-full items-start justify-center bg-[#131316] px-6 md:h-[900px] md:px-10 lg:h-[592px] lg:items-center xl:px-[159px] mt-10">
       <div className="absolute bottom-0 left-0 right-0 top-0 mx-auto my-auto h-[425px] w-full rounded-full bg-white blur-[350px] sm:w-[425px]" />
 
       <div className="relative h-[750px] w-full md:h-[900px] lg:h-[592px] 3xl:max-w-[1200px] mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-auto">
@@ -34,39 +34,9 @@ export const ProductShowcase = () => {
         </div>
 
         <div
-          className="md:-bottom-[50 px] t-[149px] absolute -bottom-[0px] left-0 right-0 z-30 hidden h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[290px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[290px] xl:flex xl:-space-y-0"
+          className="md:-bottom-[50 px] absolute -bottom-[0px] left-0 right-0 z-30 flex h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[290px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[290px] xl:hidden xl:-space-y-0"
         >
-          <Image
-            src={cardOne}
-            alt=""
-            className="z-[12] lg:-translate-y-0 xl:translate-y-[250px]"
-          />
-          <Image
-            src={cardTwo}
-            alt=""
-            className="rotate -[-30deg] z-[11] lg:-translate-y-[290px] xl:-translate-y-[130px]"
-          />
-          <Image
-            src={cardThree}
-            alt=""
-            className="z-[10] lg:-translate-y-[580px] xl:-translate-y-[500px]"
-          />
-          <Image
-            src={cardFour}
-            alt=""
-            className="xl:-translate-y-[870px]"
-          />
-          <Image
-            src={shadow}
-            alt=""
-            className="xl:-translate-y-[290px]"
-          />
-        </div>
-
-        <div
-          className="md:-bottom-[50 px] lg:righ t-[149px] absolute -bottom-[0px] left-0 right-0 z-30 flex h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[290px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[290px] xl:hidden xl:-space-y-0"
-        >
-          <Image src={cardOne} alt="" className="z-[12]" />
+          <Image src={cardOne} alt="" className="z-[12] mb-8" />
           <Image
             src={cardTwo}
             alt=""

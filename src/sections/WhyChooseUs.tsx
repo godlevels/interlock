@@ -41,7 +41,8 @@ export const WhyChooseUs = () => {
   });
 
   return (
-    <section
+    <section className="mx-4 sm:mx-6 md:mx-14 lg:mx-20 xl:mx-auto">
+    <div
       id="services"
       className="relative flex w-full flex-col-reverse items-center justify-center gap-16 px-6 pb-16 pt-6 md:flex-row md:px-10 md:pb-7 md:pt-24 xl:px-[159px]"
     >
@@ -171,6 +172,7 @@ export const WhyChooseUs = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };
