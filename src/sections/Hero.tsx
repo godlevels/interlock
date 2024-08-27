@@ -43,7 +43,7 @@ export const Hero = () => {
 
       </div>
       <div>
-          <Image src={Hero_Right} alt="" className="rotate- [-19.51deg] absolute bottom-[-450px] right-[-1.5rem] mx-auto hidden w-[1395px] lg:block 3xl:left-0 3xl:right-[0px]" width={534.56} height={708.04} />
+          <Image src={Hero_Right} alt="" className="rotate- [-19.51deg] absolute bottom-[-450px] right-[-1.5rem] mx-auto hidden w-[1395px] lg:block 3xl:left-0 3xl:right-[0px]" />
         </div>
     </div> 
   );
