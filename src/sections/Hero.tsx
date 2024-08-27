@@ -7,7 +7,7 @@ import Hero_Right from "@/assets/hero_right.png"
 
 export const Hero = () => {
   return (
-    <div className="relative flex min-h-[810px] w-full flex-col items-center justify-center overflow-hidden bg-cover px-6 pt-[0px] md:flex-row md:items-start md:px-10 md:pt-[200px] lg:justify-start lg:pt-[200px] xl:px-[159px] 3xl:justify-center ">
+    <div className="relative flex min-h-[600px] md:min-h-[810px] w-full flex-col items-center justify-center overflow-hidden bg-cover px-6 pt-[0px] md:flex-row md:items-start md:px-10 md:pt-[200px] lg:justify-start lg:pt-[200px] xl:px-[159px] 3xl:justify-center ">
       <div className="absolute inset-0 z-0">
         <Image 
           src={HeroBackground} 
@@ -20,7 +20,7 @@ export const Hero = () => {
       </div>
 
       <div className="relative z-10 flex mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-auto">
-        <div className="mt-8">
+        <div className="mt-[8rem] md:mt-8">
           <h1 className="w-full max-w-[90%] sm:max-w-[100%] md:max-w-[80%] lg:max-w-[649px] text-[#0E0E0E] text-3xl sm:text-4xl md:text-5xl lg:text-[80px] text-left font-semibold leading-tight sm:leading-tight md:leading-snug lg:leading-[80px] tracking-tight lg:tracking-[-3px]">
             Empowering Your Finance.
           </h1>
