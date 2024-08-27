@@ -65,8 +65,8 @@ export const Offer = () => {
     </div>
     </div>
             <div className="relative mt-8 flex w-full max-w-[1200px]">
-                <Image src={NotificationOneImage} width={380} height={68} alt="Notification one" className="hidden lg:block absolute left-10 bottom-[-150px] md:bottom-[180px]" />
-                <Image src={NotificationTwoImage} width={360} height={112} alt="Notification two" className="hidden lg:block absolute left-0 bottom-[30px] md:left-[330px]" />
+                <Image src={NotificationOneImage} alt="Notification one" className="hidden lg:block absolute left-10 bottom-[-150px] md:bottom-[180px] w-[380px] h-[100px]" />
+                <Image src={NotificationTwoImage} alt="Notification two" className="hidden lg:block absolute left-0 bottom-[30px] md:left-[330px] w-[360px] h-[112px]" />
             </div>
     </section>
     )
