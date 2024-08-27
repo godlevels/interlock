@@ -25,7 +25,7 @@ export const LogoTicker = () => {
         <p className="text-lg text-center text-[#2F2B43]/60 font-normal leading-[26px] tracking-[-0.012em] mb-8">
           Trusted by the best
         </p>
-        <div className="flex justify-between items-center gap-7 flex-wrap">
+        <div className="flex justify-evenly items-center gap-7 flex-wrap">
           {logos.map((logo, index) => (
             <Image 
               key={index} 

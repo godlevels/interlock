@@ -9,15 +9,15 @@ import shadow from "../assets/shadow.svg";
 
 export const ProductShowcase = () => {
   return (
-    <section className="overflow-y-c lip relative flex h-[750px] w-full items-start justify-center bg-[#131316] px-6 md:h-[900px] md:px-10 lg:h-[592px] lg:items-center xl:px-[159px] mt-10">
+    <section className="overflow-y-c lip relative flex h-[820px] w-full items-start justify-center bg-[#131316] px-6 md:h-[900px] md:px-10 lg:h-[592px] lg:items-center xl:px-[159px] mt-10">
       <div className="absolute bottom-0 left-0 right-0 top-0 mx-auto my-auto h-[425px] w-full rounded-full bg-white blur-[350px] sm:w-[425px]" />
 
       <div className="relative h-[750px] w-full md:h-[900px] lg:h-[592px] 3xl:max-w-[1200px] mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-auto">
         <div className="w-full py-16 md:w-[576px] md:py-24">
           <h2
-            className="text-4xl font-bold leading-tight tracking-[-0.96px] text-[#fcfcfd] md:text-[48px] md:leading-[60px]"
+            className="text-4xl font-bold leading-tight tracking-[-0.96px] text-[#fcfcfd] md:text-[48px] md:leading-[60px] md:mt-10"
           >
-            Different Card for Different Folks
+            Different Card for <br /> Different Folks
           </h2>
           <p
             className="mt-6 text-base font-medium leading-6 text-[#ced5de] md:text-[20px] md:leading-[30px]"
@@ -34,9 +34,9 @@ export const ProductShowcase = () => {
         </div>
 
         <div
-          className="md:-bottom-[50 px] absolute -bottom-[0px] left-0 right-0 z-30 flex h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[290px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[290px] xl:hidden xl:-space-y-0"
+          className="md:mt-0 md:-bottom-[50px] absolute sm:-bottom-[130px] left-0 right-0 z-30 flex h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[140px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[260px] xl:hidden xl:-space-y-0"
         >
-          <Image src={cardOne} alt="" className="z-[12] mb-8" />
+          <Image src={cardOne} alt="" className="z-[12]" /> 
           <Image
             src={cardTwo}
             alt=""
