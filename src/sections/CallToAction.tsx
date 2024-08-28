@@ -9,7 +9,7 @@ export const CallToAction  = () => {
   return (
     <section>
     <div
-      className="relative w-full overflow-hidden px-6 py-10 md:px-10 md:py-[110px] xl:px-[159px]"
+      className="relative w-full overflow-hidden px-6 py-10 md:px-10 md:py-[110px] xl:px-[159px] md:mb-[-4rem]"
     >
       <Image
         src={bgLeft}

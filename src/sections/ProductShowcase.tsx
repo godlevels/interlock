@@ -36,6 +36,7 @@ export const ProductShowcase = () => {
         <div
           className="-bottom-[160px] md:-bottom-0 absolute left-0 right-0 z-30 flex h-[400px] w-full flex-col justify-start -space-y-[140px] overflow-clip sm:h-[500px] sm:-space-y-[140px] md:left-auto md:right-[50px] md:h-[500px] md:w-auto md:-space-y-[320px] lg:right-0 lg:h-[650px] lg:-space-y-[280px] xl:hidden xl:-space-y-0"
         >
+          
           <Image src={cardOne} alt="" className="z-[12]" />
           <Image
             src={cardTwo}

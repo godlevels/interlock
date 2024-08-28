@@ -31,8 +31,6 @@ export const LogoTicker = () => {
               key={index} 
               src={logo.src} 
               alt={logo.alt} 
-              width={100} 
-              height={50} 
             />
           ))}
         </div>
