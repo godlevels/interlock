@@ -32,7 +32,7 @@ export const Footer = () => {
         <Image src={Logo} alt="" />
 
 
-        <div>
+      <div>
       <div className="mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 place-items-start mt-16 mb-9">
         {footerLinks.map((link, index) => (
           <div key={index} className="flex items-center gap-2">
